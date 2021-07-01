@@ -43,6 +43,7 @@
   </div>
   <script src="{{ .Site.BaseURL }}js/slim.js"></script>
   {{ with .Site.Params.AnalyticsID }}{{ partial "analytics.html" . }}{{ end }}
+  {{ partial "charts.html" . }}
 </body>
 
 </html>

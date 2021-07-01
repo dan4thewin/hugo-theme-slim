@@ -1,0 +1,9 @@
+{{- if .Params.charts }}
+  {{- range .Params.charts }}
+    {{- if substr . 0 4 | eq "http" }}
+<script src="{{.}}"></script>
+    {{- else }}
+<script src="{{ $.Site.BaseURL }}{{ $.File.Dir }}{{ $.File.BaseFileName }}/{{.}}.js"></script>
+    {{- end }}
+  {{- end }}
+{{- end }}
