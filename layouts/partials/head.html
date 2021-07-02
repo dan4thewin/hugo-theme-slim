@@ -14,3 +14,4 @@
 {{- partial "icon.html" . -}}
 
 <link href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+{{ template "_internal/google_analytics.html" . }}

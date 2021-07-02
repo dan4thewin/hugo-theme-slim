@@ -24,7 +24,6 @@ You could add `params` into your site's `config.toml` file:
   Subtitle = "Your site's subtitle/tagline"
   GithubID = "Your Github ID"
   TwitterID = "Your Twitter ID"
-  AnalyticsID = "Your Google Analytics tracking code"
   DisqusShortname = "Your Disqus shortname"
   Summary = true  # takes true or false
   Content = false  # takes true or false
@@ -40,7 +39,6 @@ params:
   Subtitle: "Your site's subtitle/tagline"
   GithubID: "Your Github ID"
   TwitterID: "Your Twitter ID"
-  AnalyticsID: "Your Google Analytics tracking code"
   DisqusShortname: "Your Disqus shortname"
   Summary: true # takes true or false
   Content: false # takes true or false
